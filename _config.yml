@@ -1,5 +1,5 @@
 # Site settings
 name: Learnings
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 baseurl: /learnings
