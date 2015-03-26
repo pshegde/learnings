@@ -1,4 +1,4 @@
-<nav class="nav-primary" role="navigation" >
+<nav class="nav-primary" role="navigation" id="sidebar">
     <ul>
       {% for post in site.posts limit: 5 %}
         <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
