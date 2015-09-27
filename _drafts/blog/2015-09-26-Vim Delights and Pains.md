@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Vim delights and pains
+categories: blog
 ---
 
 Vim has a lot of fans. I guess all of them go through growing pains since it has a huge learning curve. 
