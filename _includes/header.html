@@ -5,6 +5,8 @@
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"></link>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/layout.css" />
+    <script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       body {
@@ -20,12 +22,7 @@
       }
     </style>
     <script type="text/javascript">
-    $('#blog').click(function() {
-    alert("blog");
-    /* event.preventDefault();*/
-    /*return false;*/
-    });
-    
+       
     </script>
 
 <nav class="navbar navbar-inverse navbar-default" id="maindiv">
@@ -43,7 +40,8 @@
       <ul class="nav navbar-nav">
         <a class="navbar-brand" href="#">{{ site.name }}</a>
 
-        <li class="active"><a href="#">Home </a></li>
+        <li class="active"><a href="{{ site.baseurl }}/">Home </a></li>
+        <li class="active"><a href="{{ site.baseurl }}/travel/">Travel</a></li>
       </ul>
     </div>
     </div>
