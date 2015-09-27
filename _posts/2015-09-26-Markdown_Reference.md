@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
+title:  "Markdown reference"
 date:   2015-03-24 16:07:38
 categories: jekyll update
 ---
