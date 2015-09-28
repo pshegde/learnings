@@ -1,3 +1,3 @@
 # learnings
 
-Random stuff that I am learning
+Stuff that I am learning
